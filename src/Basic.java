@@ -30,5 +30,11 @@ public class Basic {
         }else {
             System.out.println("Sorry, You are underage to have a driving licence yet...!");
         }
+        System.out.println("Enter a number To print serial");
+        int number = userinput.nextInt();
+        do{
+            number = number+number;
+            System.out.println(number);
+        }while (number < 5);
     }
 }
